@@ -1,0 +1,32 @@
+{
+  "name": "sy-records/easy-aliyun",
+  "description":"阿里云SDK",
+  "type":"library",
+  "keywords": [
+    "ali",
+    "aliyun",
+    "aliyun-sdk",
+    "sdk"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Shen Yan",
+      "email": "52o@qq52o.cn",
+      "homepage": "https://qq52o.me",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "52o@qq52o.cn",
+    "issues": "https://github.com/sy-records/EasyAliyun/issues"
+  },
+  "require":{
+    "php":">= 5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SyRecords\\": "src/"
+    }
+  }
+}
