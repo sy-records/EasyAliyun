@@ -38,8 +38,8 @@ class Common
 
     /**
      * 发起请求
-     * @param $params [请求参数]
      * @param $url [请求链接]
+     * @param $params [请求参数]
      *
      * @return mixed
      */
