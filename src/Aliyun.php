@@ -56,7 +56,7 @@ class Aliyun extends Common
         }
 
         // 计算签名并把签名结果加入请求参数
-        $params ['Signature'] = $this->computeSignature($params, $accessKeySecret);
+        $params['Signature'] = $this->computeSignature($params, $accessKeySecret);
 
         return $this->AliCurl($url, $params);
     }
@@ -102,7 +102,7 @@ class Aliyun extends Common
         }
 
         // 计算签名并把签名结果加入请求参数
-        $params ['Signature'] = $this->computeSignature($params, $accessKeySecret);
+        $params['Signature'] = $this->computeSignature($params, $accessKeySecret);
 
         return $this->AliCurl($url, $params);
     }
